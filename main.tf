@@ -2,7 +2,7 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "=2.60.0"
+      version = "=3.5.0"
     }
   }
 }
@@ -10,7 +10,7 @@ terraform {
 provider "azurerm" {
   features {}
   alias ="west1"
-   version = "~> 1.44"
+   version = "=3.5.0"
 }
 
 resource "azurerm_resource_group" "myresourcegroup" {
