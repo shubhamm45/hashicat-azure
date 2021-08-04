@@ -9,8 +9,6 @@ terraform {
 
 provider "azurerm" {
   features {}
-  alias ="west1"
-   version = "=3.5.0"
 }
 
 resource "azurerm_resource_group" "myresourcegroup" {
