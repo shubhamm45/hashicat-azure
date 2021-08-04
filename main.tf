@@ -9,6 +9,7 @@ terraform {
 
 provider "azurerm" {
   features {}
+  alias ="west1"
 }
 
 resource "azurerm_resource_group" "myresourcegroup" {
